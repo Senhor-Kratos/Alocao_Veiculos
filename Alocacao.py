@@ -1,13 +1,13 @@
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 from ortools.sat.python import cp_model
 
 # Ler as bases de dados
-perdas_viagens = pd.read_excel(r'C:\Users\Leonardo\Downloads\Anonimo_Case.xlsx')
-manutencao_veiculos = pd.read_excel(r'C:\Users\Leonardo\Downloads\Dados_alocacao_anonimizados.xlsx')
+perdas_viagens = pd.read_excel('Case_exemplo.xlsx')
+manutencao_veiculos = pd.read_excel('Dados_manutencao.xlsx')
 
 # Ler a tabela de linhas que aceitam P-AR
-regras_flexibilidade = pd.read_excel(r'C:\Users\Leonardo\Downloads\base_Aceita_P-AR.xlsx')
+regras_flexibilidade = pd.read_excel('base_Aceita_P-AR.xlsx')
 
 # Renomear colunas para padronizar
 perdas_viagens.rename(columns={
