@@ -31,6 +31,6 @@ Sinta-se à vontade para abrir Issues ou enviar um Pull Request com melhorias.
 
 ✉️ E-mail: leonardo.cordeiro010@gmail.com
 
-🔗 LinkedIn: LinkedIn: [leonardo Martins](www.linkedin.com/in/leonardo-martins-444910184)
+🔗 LinkedIn: LinkedIn: [Leonardo Martins](https://www.linkedin.com/in/leonardo-martins-444910184)
 
 ⭐ Curtiu o projeto? Deixe uma estrela no repositório e acompanhe meu GitHub para mais soluções de otimização e análise de dados!
